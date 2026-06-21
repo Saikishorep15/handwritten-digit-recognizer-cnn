@@ -8,6 +8,7 @@ from streamlit_drawable_canvas import st_canvas
 # ------------------------------
 # Load Model (FIXED - no crash)
 # ------------------------------
+
 @st.cache_resource
 def load_my_model():
     return load_model("model.keras")  # or model.h5 if you didn't change
